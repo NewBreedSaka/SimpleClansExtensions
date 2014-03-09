@@ -52,7 +52,7 @@ public class ExtensionsListener implements Listener {
         redBuildings.addBuilding(BuildingType.Tower, new Location(world, -1091, 54, 339), 3);
         redBuildings.addBuilding(BuildingType.Tower, new Location(world, -1001, 53, 448), 2); 
         redBuildings.addBuilding(BuildingType.Tower, new Location(world, -1089, 53, 458), 1);
-        redBuildings.addBuilding(BuildingType.Nexus, new Location(world, -1159, 55, 410), 0);
+        redBuildings.addBuilding(BuildingType.Nexus, new Location(world, -1159, 55, 411), 0);
         towerCounts.put("red", redBuildings.buildingsCount(BuildingType.Tower));
     }
 
